@@ -1,21 +1,13 @@
-# Your Cool Amplenote Plugin
+# Amplenote Calendar Plugin
 
-In this section you can provide some details about the [Amplenote plugin](https://www.amplenote.com/help/developing_amplenote_plugins) 
-that this repo will implement.
+This will create a current month view with the option to link to the daily jot note if it exists for a day under a configurable header that must exist (defaults to Calendar).
 
-## Installation
+The whole section under the header will be replaced, but the rest of the note will be left intact.
 
-1. Clone this repo. `git clone git@github.com:alloy-org/plugin-template.git`
-2. Copy its contents to a directory with the name of your plugin. `cp -r plugin-template my-cool-plugin`
-3. `cd my-cool-plugin`
-4. Install node and npm with your package manager of choice. `brew install node` or `apt install nodejs` 
-5. Run `npm install` to install the packages (jest, fetch (for Jest)).  
-6. Set up your repo as the remote origin. `git remote set-url origin git@github.com:my-org/my-cool-plugin.git`
-7. Push your repo to GitHub. `git push`
-8. 🎉
-Optional
-9. If you are going to use any secret keys, put them in `.env.example`, then copy that to `.env` 
-   and fill in whatever environment variables you need
+**Quick Start**
+- On any Note (e.g. a note meant for the Peek Viewer) create a heading (any of H1, H2, or H3) named Calendar
+- From the Note menu, choose Calendar: Month
+- Marvel at the calendar now appearing on your note.
 
 ## Testing
 
